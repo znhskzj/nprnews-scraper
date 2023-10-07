@@ -1,0 +1,12 @@
+# Ignore all .log files
+*.log
+
+# Ignore the temp directory
+/temp/
+/log/
+/mp3/
+/news/
+/todo/
+
+# Ignore all .env files
+config.env
