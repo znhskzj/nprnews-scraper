@@ -1,4 +1,4 @@
-# Version: Version: 1.6.1
+# Version: data_clean.py v1.6.1
 # Description: A script to clean the scraped news data, handle missing data, and generate summary and word cloud.
 
 import json

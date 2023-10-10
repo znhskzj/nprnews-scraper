@@ -1,4 +1,4 @@
-#  Version: config_loader.py v1.1.1
+#  Version: config_loader.py v1.2.0
 #  Description: A centralized configuration loader for extracting and validating settings from the config.env file.
 
 import os

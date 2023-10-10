@@ -11,20 +11,21 @@ wordpress节，nprnew节，dataclean节，update页面节等
 WP_USERNAME,WP_APP_PASSWORD,WP_API_UTL,PAGE_ID
 
 ## 使用
- `news_scraper.py` (v1.6.2)以爬取新闻
- `data_clean.py` (v1.4.0)数据清洗
- `disp_page.py` 显示页面
- `wordpress_utils.py` 和个人wordpress网站有关的功能。
- `wordpress_updater.py` (v1.0.0) 以更新WordPress页面。
+ `news_scraper.py` (v1.6.3)以爬取新闻
+ `data_clean.py` (v1.6.1)数据清洗
+ `news_translator.py` (v1.6.2)使用deepl或者微软API翻译
+ `wordpress_utils.py` (v1.2.0)和个人wordpress网站有关的功能。
+ `wordpress_updater.py` (v1.2.0) 更新WordPress页面。
 
 ## 文件清单
 - `news_scraper.py`: 新闻爬取模块。
+- `data_clean.py`：数据清洗模块。
+- `news_translator.py`：新闻稿翻译模块
 - `wordpress_utils.py`: WordPress网站相关功能模块。
 - `wordpress_updater.py`: WordPress页面更新模块。
 - `config.env`：环境变量及用户密钥。
-- `data_clean.py`：数据清洗模块。
-- ``
-- ``
+- `config_loader.env`：加载环境变量。
+- `.gitignore`：git管理的忽略文件
 - `README.MD`:本介绍文件
 
 ## 更新日志
